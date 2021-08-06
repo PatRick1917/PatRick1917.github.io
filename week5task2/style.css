@@ -1,0 +1,16 @@
+h1 {
+    font-family: sans-serif;
+}
+
+label {
+    font-family: sans-serif;
+}
+
+html {
+    background-color: coral;
+}
+
+.outlined {
+    border: 1px solid black;
+    padding: 10px;
+}

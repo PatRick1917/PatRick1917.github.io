@@ -1,0 +1,42 @@
+<html>
+    <!--
+    Zachary Zubiate
+
+    Lab 05, Task 02
+
+    This program calculates Body Mass Index based on inputted height and weight values 
+    -->
+    <head>
+        <title>Zachary Zubiate</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>BMI Calculator</h1>
+        <div class="outlined">
+            <div>
+                <label>Height (ft)
+                    <input type="number" name="heightFeet" id="heightFeet">
+                </label><br>
+            </div><br>
+            <div>
+                <label>Height (in)
+                    <input type="number" name="heightInches" id="heightInches">
+                </label><br>
+            </div><br>
+            <div>
+                <label>Weight
+                    <input type="number" name="weightPounds" id="weightPounds">
+                </label>
+            </div>
+        </div>
+        <br>
+                <button onclick="calcBMI()">Calc BMI</button>
+                <button onclick="reset()">Clear</button>
+        <br><br>
+        <div class="outlined">
+            <div id="bmiValueResults"><h3>BMI: </h3></div>
+            <div id="bmiCategoryResults"><h3>Category: </h3></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
