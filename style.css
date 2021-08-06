@@ -1,3 +1,17 @@
 h1 {
     font-family: sans-serif;
 }
+
+html {
+    text-align: center;
+}
+
+.outerContainer {
+    background-color: powderblue;
+    border: 1px solid black;
+}
+
+div {
+    padding: 10px;
+    display: inline-block;
+}
